@@ -1,0 +1,124 @@
+html {
+    background-image: url(../imgs/pexels-plato-terentev-3804555-5906796.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    height: -webkit-fill-available;
+
+}
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+
+}
+
+.parent {
+    width: 350px;
+    height: 500px;
+    background-color: #f9fcffb3;
+    text-align: center;
+    margin-top: 110px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 20px 2px #eee6e6fc;
+    }
+
+
+.icon img { 
+    width: 100px;
+    margin: 30px auto;
+    border-radius: 15px;
+    opacity: .8;
+} 
+
+.name , .pass {
+    padding: 10px;
+}
+
+label {
+
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px;
+    letter-spacing: 2px;
+    text-align: left;
+    padding-left: 40px;
+    }
+
+input {
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid;
+    text-align: left;
+    text-transform: capitalize;
+    outline: none;
+}
+
+.links {
+    padding-bottom: 25px;
+}
+
+.links a , p {
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-size: x-small;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+p  {
+    cursor: default;
+}
+
+
+button {
+    background-color: black;
+    color: #ffff;
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: black;
+    background-color: #ffff;
+    scale: 1.05;
+}
+
+a:hover {
+    color: #297777;
+    
+}
+
+input:focus-visible {
+    border: 0;
+    border-bottom: 1px solid;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+@media (max-width: 767px) {
+    .logo img {
+        max-width: 200px;
+    }
+
+    .img img {
+        max-width: 200px;
+    }
+
+    .icons a {
+        font-size: 20px;
+    }
+}
+/**! created by Abdulrhman Samir -- 28/8/2024  !**/
